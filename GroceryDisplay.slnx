@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GroceryDisplay.Api/GroceryDisplay.Api.csproj" />
+  <Project Path="GroceryDisplay.AppHost/GroceryDisplay.AppHost.csproj" />
+  <Project Path="GroceryDisplay.ServiceDefaults/GroceryDisplay.ServiceDefaults.csproj" />
+</Solution>

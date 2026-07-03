@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "GroceryDisplay.AppHost/GroceryDisplay.AppHost.csproj"
+  }
+}
