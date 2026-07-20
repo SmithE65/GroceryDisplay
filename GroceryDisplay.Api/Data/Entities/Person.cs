@@ -2,8 +2,8 @@
 
 public sealed class Person
 {
-    public string PersonId { get; set; }
-    public string DisplayName { get; set; }
+    public required string PersonId { get; set; }
+    public required string DisplayName { get; set; }
     public bool IsActive { get; set; } = true;
     public short SortOrder { get; set; } = 0;
     public DateTimeOffset CreatedAt { get; set; }

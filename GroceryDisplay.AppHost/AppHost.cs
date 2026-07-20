@@ -6,6 +6,7 @@ var groceryPostgres = builder.AddPostgres("grocerydb-instance")
 var groceryDb = groceryPostgres.AddDatabase("grocerydb");
 
 builder.AddProject<Projects.GroceryDisplay_Api>("grocerydisplay-api")
-    .WithReference(groceryDb); ;
+    .WithReference(groceryDb)
+    .WaitFor(groceryDb);
 
 builder.Build().Run();

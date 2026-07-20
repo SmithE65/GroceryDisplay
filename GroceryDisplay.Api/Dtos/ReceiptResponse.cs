@@ -7,4 +7,12 @@ public sealed record ReceiptResponse(
     DateOnly PurchasedOn,
     string? StoreName,
     string? Note,
-    bool Voided);
+    string? ClientEntryId,
+    DateTimeOffset CreatedAt,
+    string CreatedBy,
+    DateTimeOffset? UpdatedAt,
+    string? UpdatedBy,
+    DateTimeOffset? VoidedAt,
+    string? VoidedBy,
+    string? VoidReason,
+    bool IsVoided);
