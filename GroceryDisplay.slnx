@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="GroceryDisplay.Admin/grocerydisplay.admin.client/grocerydisplay.admin.client.esproj">
+    <Build />
+  </Project>
+  <Project Path="GroceryDisplay.Admin/GroceryDisplay.Admin.Server/GroceryDisplay.Admin.Server.csproj" />
   <Project Path="GroceryDisplay.Api/GroceryDisplay.Api.csproj" />
   <Project Path="GroceryDisplay.AppHost/GroceryDisplay.AppHost.csproj" />
   <Project Path="GroceryDisplay.ServiceDefaults/GroceryDisplay.ServiceDefaults.csproj" />

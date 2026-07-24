@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GroceryDisplay.Admin\GroceryDisplay.Admin.Server\GroceryDisplay.Admin.Server.csproj" />
     <ProjectReference Include="..\GroceryDisplay.Api\GroceryDisplay.Api.csproj" />
   </ItemGroup>
 
